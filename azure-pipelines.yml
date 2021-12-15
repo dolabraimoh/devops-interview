@@ -1,8 +1,5 @@
 name: ci
 
-jobs:
-  build:
-
     runs-on:- task: AzureAppServiceSettings@1
   inputs:
     azureSubscription: 'Pay-As-You-Go (fed31085-2f87-41a5-813d-66cb81658a99)'
