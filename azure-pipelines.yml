@@ -32,8 +32,3 @@ jobs:
       
     - name: Build
       run: dotnet build --configuration Release --no-restore
-- task: UseDotNet@2
-  inputs:
-    packageType: 'sdk'
-    version: '3.1'
-    performMultiLevelLookup: true
